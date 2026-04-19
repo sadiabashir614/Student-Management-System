@@ -1,0 +1,70 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: darkblue;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.studentform{
+    width: 100%;
+    max-width: 450px;
+    min-width: 350px;
+    background-color: cadetblue;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: -2px 4px 15px black;
+}
+
+h1{
+    color: brown;
+}
+
+.input-field{
+    padding: 2px;
+}
+
+.input-field input{
+    width: 100%;
+    background-color: #eaeaea;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 3px;
+    box-shadow: 4px 4px 12px #999;
+}
+
+.btn-field{
+   width: 100%;
+   display: flex;
+}
+
+button{
+    background-color: black;
+    width: 80px;
+    height: 30px;
+    color: aliceblue;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    margin: 10px auto 0px auto;
+    cursor: pointer;
+    transition: background-color 2s;
+}
+
+button:hover{
+    background-color: red;
+}
+
+
+
